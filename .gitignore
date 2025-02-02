@@ -1,7 +1,5 @@
 # Byte-compiled / cached files
 __pycache__/
-/__pycache__
-./__pycache__
 *.py[cod]
 *.so
 *.pyo
@@ -12,6 +10,9 @@ __pycache__/
 env/
 venv/
 
+#db
+test.db
+*.db
 # Editor & OS-generated files
 .vscode/
 .idea/
