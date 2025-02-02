@@ -1,0 +1,58 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Editor & OS-generated files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs & Debugging
+logs/
+*.log
+*.out
+
+# Database & Migrations
+*.sqlite3
+*.db
+alembic/versions/
+
+# Environment variables & Configs
+.env
+.env.local
+*.secret
+
+# Compiled & Cached files
+*.egg-info/
+*.dist-info/
+*.whl
+node_modules/
+.cache/
+
+# Uvicorn & Gunicorn logs
+gunicorn.log
+gunicorn.error.log
+
+# Static & Media Files
+staticfiles/
+media/
+uploads/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Pytest & Coverage
+.coverage
+htmlcov/
+pytest_cache/
